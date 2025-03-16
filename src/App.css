@@ -1,0 +1,254 @@
+body {
+  background-color: #f8f8ff;
+}
+.heading {
+  font-weight: 800;
+  font-size: 40px;
+  color: rgb(112, 109, 109);
+  position: relative;
+}
+.user-options button {
+  border: none;
+  padding: 10px;
+  width: 27%;
+  border-radius: 5px;
+  background-color: rgb(52, 108, 199);
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+}
+.user-options select {
+  border: none;
+  padding: 13px;
+  width: 30%;
+  background-color: #cccdde;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.container-space {
+  /* border: 1px lightgray solid; */
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  background-color: #cccdde;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px 1px #e1e2e9;
+  margin-top: -50px;
+  height: 250px; /* Set a fixed height */
+  overflow: scroll;
+}
+.container-space::-webkit-scrollbar {
+  display: none;
+}
+
+.data-container {
+  padding: 130px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  position: absolute;
+  top: 22%;
+  left: 0;
+  right: 0;
+  background-color: #ececf1;
+  border-radius: 5px;
+  text-align: left;
+  height: 56%;
+}
+.delete-button {
+  position: absolute;
+  top: -13%;
+  right: 0%;
+  border-radius: 4px;
+  padding: 7px;
+  width: 9%;
+  background-color: #828285;
+  border: none;
+}
+.delete-button:hover {
+  background-color: lightcoral;
+  transition: all 0.3s ease-in;
+}
+/*  */
+.containers {
+  position: relative;
+  margin-top: -120px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 1.1rem;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Input field styling */
+.form-group input[type="text"] {
+  margin-left: auto;
+  margin-right: auto;
+  width: 130%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Dropdown styling */
+.form-group select {
+  width: 130%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.form-group {
+  margin-left: -100px;
+}
+
+/* Button styling */
+.submit-button {
+  border: none;
+  padding: 10px;
+  background-color: rgb(99, 108, 236);
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 6px;
+  margin-left: -100px;
+}
+.close-button {
+  border: none;
+  padding: 10px;
+  background-color: rgb(99, 108, 236);
+  color: rgb(0, 0, 0);
+  background-color: #e2e2e8;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 6px;
+  width: 40%;
+}
+
+.form-group label {
+  font-weight: 700;
+  font-size: 17px;
+}
+.todo-container {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  width: 670px;
+  padding: 8px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.todo-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Left Side */
+.todo-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.todo-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.todo-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.todo-date {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Right Side */
+.todo-right {
+  display: flex;
+  align-items: center;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 10%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.errormsg{
+  border: 1px rgb(150, 150, 150) solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 5px;
+  color: white;
+  background-color: #535353;
+  font-size: 23px;
+  padding: 6px;
+
+  
+
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a;
+}
+.toast-message{
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px;
+  background: darkblue;
+  color: #fff;
+
+  width: 34vw;
+  padding: 30px 20px
+
+}
+.completed{
+  color: rgb(32, 104, 32);
+}
+.in-complete{
+  color: rgb(157, 27, 27);
+}
